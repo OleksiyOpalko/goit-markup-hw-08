@@ -1,0 +1,68 @@
+.contacts {
+    display: flex;
+    margin-left: auto;
+    transition-property: background-color;
+    transition-duration: 2500ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+   & .link {
+        display: flex;
+          color: $color-primary;
+          font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+      
+      }
+
+    &  .link-footer {
+        display: block;
+                   font-style: normal;
+      font-weight: normal;
+      padding-top: 9px;
+        font-size: 14px;
+      line-height: 1.71;
+      /* or 171% */
+      
+      letter-spacing: 0.03em;
+      
+      color:$color-minor;
+      }
+& .link-adress {
+    display: block;
+    color: $color-white;
+      font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  }
+& .item + .item {
+    margin-left: 50px;
+  } 
+
+ & .link-adress:hover,
+  & .link-adress:focus,
+& .link-footer:hover,
+& .link-footer:focus,
+& .link:hover,
+& .link:focus
+ {
+color: $color-accent;
+}
+
+& .link .contacts-icon:hover,
+& .link .contacts-icon:focus
+ {
+color: $color-accent;
+}
+    }
+
+    .contacts-icon{
+        width: 16px;
+      height: 16px;
+      margin-right: 10px;
+      
+    fill: currentColor;
+   }

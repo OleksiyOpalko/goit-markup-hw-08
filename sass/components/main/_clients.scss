@@ -1,0 +1,45 @@
+.section-clients{
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
+  
+  .clients{
+    display: flex;
+    box-sizing: border-box;
+  
+  }
+
+  .clients-icon {
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 4px;
+    background: $color-white;
+    margin-right: 30px;
+    align-items: center;
+    justify-content:center;
+    transition-property: border-color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+ &:hover,
+ &:focus
+ {
+   border-color:   $color-accent;
+ }  
+
+ &:hover .company,
+ &:focus .company {
+  fill: $color-accent;
+}
+  }
+
+  .company{
+    fill: #AFB1B8;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   }
+  

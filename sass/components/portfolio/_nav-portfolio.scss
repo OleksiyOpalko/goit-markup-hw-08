@@ -1,0 +1,37 @@
+.menu-portfolio{
+    display: flex;
+    justify-content: center;
+    padding-top: 94px;
+    padding-bottom: 50px;
+
+    & .menu-button  + .menu-button {
+        margin-left: 8px;
+      }
+  }
+
+  .button-portfolio {
+    line-height: 26px;
+    display: inline-block;
+  border-radius: 4px;
+  border: 1px transparent;
+  padding: 6px 22px;
+  color: $color-title;
+    background-color: $color-white-bgr;
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+/* line-height: 1.14px; */
+letter-spacing: 0.02em;
+
+&:hover,
+&:focus {
+color: $color-white;
+background-color: $color-accent;
+
+}
+    }
+    
+    .button {
+        padding: 0;
+        border: none;
+      }

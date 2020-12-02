@@ -1,0 +1,44 @@
+.than {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+   .work {
+    display: flex;
+  
+  }
+
+  .section-presentation{
+    color: $color-title;
+    font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+padding-bottom: 50px;
+}
+
+.work-title {
+    margin-right: 30px;
+    padding-left: 0px;
+    display: block;
+  
+  }
+  
+  .work-title-p{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $color-white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: rgba(47, 48, 58, 0.8);
+    
+    }

@@ -1,0 +1,58 @@
+.why {
+    padding-top: 94px;
+  }
+  
+  .why-we {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  border-radius: 4px;
+  background: $color-white;
+  
+  align-items: center;
+  justify-content:center;
+  }
+
+  .why-icon {
+    width: 270px;
+    height: 120px;
+    background: $color-white-bgr;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+
+  .section-title{
+    color: $color-title;
+    font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-top: 30px;
+margin-bottom: 10px;
+
+&.centred {
+    text-align: center;
+  }
+
+
+}
+
+.advantage {
+    display: flex;
+  
+   }
+
+   .advantage-title {
+    margin-right: 30px;
+
+    &:last-child {
+        margin-right: 0px;
+       }
+    }
+   
+ 
