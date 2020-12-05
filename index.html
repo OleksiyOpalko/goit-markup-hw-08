@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -12,12 +12,21 @@
     
 </head>
 <body>
-    <header class="container">
+    <header class="header-page">
+        <div class="container">
         <nav class="main-nav">
             <a href="./index.html" class="logo">
                 <span lang="en" class="logo-title">Web</span>Studio
             </a>
 
+            <button type="button" class="menu-btn" aria-expanded="false" data-menu-button>
+                <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+                    <use class="icon-menu" href="./images/mobile-symbol.svg#icon-menu_40px"></use>
+                    <use class="icon-cross" href="./images/mobile-symbol.svg#icon-close_40px"></use>             
+                </svg>
+            </button>
+            
+            <div class="menu-container" id="menu-container" data-menu>
         <ul class="site-nav list">
             <li class="item"> <a href="" class="link current">Студия</a></li>
             <li class="item"> <a href="./portfolio.html" class="link">Портфолио</a></li>
@@ -36,17 +45,19 @@
             </svg>
             +38 096 111 11 11</a> </li>
         </ul>
+    </div>
         </nav>
+    </div>
     </header>  
 
      <main>
    
         <section class="hero">
-        <!-- <div class="container "> -->
+     <div class="container "> 
             <h1 class="hero-title ">Эффективные решения для вашего бизнеса</h1>
         <button data-modal-open class="hero-button ">Заказать услугу</button>
         <!-- <button type="button" class="hero-button">Заказать услугу </button> -->
-        <!-- </div> -->
+        
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
                 
@@ -101,6 +112,7 @@
             <button type="submit" class="hero-button ">Отправить</button>
         </form>
             </div>
+        </div>
         </div>
         </section>
    
